@@ -13,7 +13,7 @@ namespace ClientApp
             var disco = await DiscoveryClient.GetAsync("http://localhost:59972");
             if (disco.IsError)
             {
-                Console.WriteLine("Hello World!");
+                Console.WriteLine(disco.Error);
                 return;
             }
 
