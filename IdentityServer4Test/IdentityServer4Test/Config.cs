@@ -25,7 +25,6 @@ namespace IdentityServer4Test
                     ClientSecrets={ new Secret("secret".Sha256())},
                     AllowedScopes={ "api1"}
                 },
-               
             };
         }
     }
